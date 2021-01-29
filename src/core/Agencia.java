@@ -75,6 +75,8 @@ public class Agencia {
 		double saldo = p.getSaldo() + valor;
 		p.setSaldo(saldo);
 		System.out.println("Saldo atual: " + p.getSaldo());
+		
+	
 	}
 
 
