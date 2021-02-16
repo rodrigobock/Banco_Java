@@ -2,9 +2,10 @@ package core;
 
 import java.util.ArrayList;
 
+import core.Interfaces.IAgencia;
 import usuario.Usuario;
 
-public class Agencia {
+public class Agencia implements IAgencia {
 
 	static ArrayList<Usuario> Usuarios = new ArrayList<Usuario>();
 
